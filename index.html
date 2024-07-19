@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style id="newStyle"></style>
+
+</head>
+<body>
+    <!-- index.html -->
+    
+    <h2>Создать меню</h2>
+
+    <form name="formMenu">
+        <p>
+            Пункты меню: 
+            <input type="text" size="50" value="Главная, О компании, Новости" name="elemMenu">
+        </p>
+
+        <p>
+            Цвет текста: 
+            <input type="color" value="#ffffff" name="fc">
+        </p>
+
+        <p>
+            Цвет фона: 
+            <input type="color" value="#16a4c0" name="bc">
+        </p>
+
+        <p>
+            Цвет наведения: 
+            <input type="color" value="#ff6524" name="hc">
+        </p>
+
+        <p>
+            <input type="button" name="myButton" value="Создать меню" onclick="createMenu()">
+        </p>
+
+    </form>
+
+    <div id="myMenu"></div>
+
+    <!-- <ul>
+        <li><a href="#"> Пункт меню</a></li>
+        <li><a href="#"> Пункт меню</a></li>
+        <li><a href="#"> Пункт меню</a></li>
+    </ul> -->
+
+    <script src="js/menu.js"></script>
+</body>
+</html>
